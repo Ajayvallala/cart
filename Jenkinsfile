@@ -2,7 +2,7 @@
 
 def configmap = [
     project: "roboshop",
-    component: "catalogue"
+    component: "cart"
 ]
 if(! env.BRANCH_NAME.equalsIgnoreCase('main')){
  nodejsEKSpipeline(configmap)
